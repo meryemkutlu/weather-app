@@ -1,0 +1,43 @@
+.error-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../assets/bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.error-section img {
+    margin-bottom: 10px;
+    height: 350px;
+}
+
+.error-section h1 {
+    font-size: 56px;
+    margin-bottom: 30px;
+    color: #BFBFD4;
+
+}
+
+.btn-return {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #BFBFD4;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #BFBFD4;
+    padding: 10px;
+    margin-top: 32px;
+}
+
+.btn-return:hover {
+    transform: scale(1.05);
+}

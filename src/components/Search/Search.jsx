@@ -26,6 +26,7 @@ function Search() {
           }
         }}
       />
+
       <Link id="link" to={`/weather/${city}`}>
         Get Weather
       </Link>
